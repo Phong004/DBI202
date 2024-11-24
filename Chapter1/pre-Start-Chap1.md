@@ -115,7 +115,7 @@ __${\color{red}Database\space System}$__
 $$\color{red}\rightarrow\space Không\space hỗ\space trợ\space truy\space vấn\space ngôn\space ngữ\space bặc\space cao$$
 
 ![image](<Pictures_Source/Picture2.png>)
-![image](<Picture_Source/Picture4.png>)
+![image](<Pictures_Source/Picture4.png>)
 
 **Smaller and Smaller System**
 - DBMS vốn là phần mềm rất nặng và mắc chạy trên các máy tính lớn nhưng ngày nay nó đã có thể chạy trên PC, Mobile,...
