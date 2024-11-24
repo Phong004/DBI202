@@ -109,6 +109,7 @@ __${\color{red}Database\space System}$__
 (5)|No|
 
 **Cấu trúc cây phân cấp dữ liệu**
+
 ![image](<Pictures_Source/Picture3.png>)
 
 **Cấu trúc đồ thị mạng dữ liệu** cho phép mỗi bản ghi có nhiều bản ghi cha hoặc nhiều bản ghi con.
@@ -121,22 +122,30 @@ $$\color{red}\rightarrow\space Không\space hỗ\space trợ\space truy\space v�
 - DBMS vốn là phần mềm rất nặng và mắc chạy trên các máy tính lớn nhưng ngày nay nó đã có thể chạy trên PC, Mobile,...
 
 => Hệ cơ sở dữ liệu dựa trên mô hình quan hệ có sẵn cho các máy rất nhỏ.
+
 **Bigger and Bigger System**
 - Kích cỡ của dữ liệu được tăng liên tục
 - Nhiều cơ sở dữ liệu lưu trữ hàng petabytes và phục vụ cho tất cả người dùng.
+
 **Information Integration**
 <Thiếu>
 ## 2. Overview of DBMS
 **Database Management System**
 <Thiếu>
+
 **DBMS components**
 <Thiếu>
+
 **Database Users**
 <Thiếu>
+
 **DDL - Data Definition Language Commands**
 <Thiếu>
+
 **1. Trả lời truy vấn**
 <Thiếu>
+
 **2. Xử lý giao dịch**
 <Thiếu>
+
 **Xu hướng thiết kế DB và DBMS**
