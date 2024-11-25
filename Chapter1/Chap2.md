@@ -26,3 +26,9 @@
 8. $$\theta$$ joins: Tích Decarse có điều kiện $$R_3 = R1\space ⋈_{\<join condition\>} R_2$$
 9. Natural join: Tích tự nhiên, 2 cột nào có giá trị bằng nhau thì lấy, bỏ cột trùng lặp $$R_3 = R1\space ⋈\space R_2$$
 10. Rename: $$P$$
+
+## Excercise
+
+a) $$\pi_{model,speed}(\sigma_{speed\ge 3.00}(PC))$$
+(*)b) $$\pi_{model,ram,hd,screen}(\sigma_{hd\ge 100}(Laptop))$$
+(*)c) $$\pi_{}$$
