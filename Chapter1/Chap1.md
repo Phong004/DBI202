@@ -81,11 +81,14 @@
 
  __${\color{red}Database}$ - Cơ sở dữ liệu__
  - Một bộ các thông tin tồn tại qua một thời gian dài.
- - Bộ các dữ liệu liên quan nhau.
+ - Bộ các dữ liệu liên quan nhau. (có mối quan hệ với nhau không thể tách rời)
  - Quản lý bằng DBMS - Database Management System
+ - Khả năng lưu trữ của database phụ thuộc vào DBMS
 
 __${\color{red}DBMS}$ - Hệ quản lý cơ sở dữ liệu__
 - Là phần mềm có chức năng tạo và bảo trì một hệ cơ sở dữ liệu tính toán.
+- Là phần mềm dùng để lưu trữ DB.
+- Trong chương trình học, sử dụng T-SQL.
 
 __${\color{red}Database\space System}$__
 - Phần mêm *DBMS* cùng với *Data*, đôi khi còn bao gồm các ứng dụng.
@@ -93,7 +96,7 @@ __${\color{red}Database\space System}$__
 ![image](<Pictures_Source/Picture1.png>)
 
 **DBMS** được trông đợi:
-  1. Cho phép người dùng tạo mới cơ sở dữ liệu và chỉ định lược đồ của nó.
+  1. Cho phép người dùng tạo mới cơ sở dữ liệu và chỉ định lược đồ của nó. Có thể Export ra các hệ quản trị cơ sở dữ liệu khác.
   2. Cho người dùng khả năng truy vấn dữ liệu
   3. Hỗ trợ lưu trữ lượng rất lớn cơ sở dữ liệu.
   4. Enable Durability
