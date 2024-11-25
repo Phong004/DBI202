@@ -121,6 +121,10 @@ $$\color{red}\rightarrow\space Không\space hỗ\space trợ\space truy\space v�
 ![image](<Pictures_Source/Picture2.png>)
 ![image](<Pictures_Source/Picture4.png>)
 
+**Example**
+
+![image](<Pictures_Source/Picture5.png>)
+
 **Smaller and Smaller System**
 - DBMS vốn là phần mềm rất nặng và mắc chạy trên các máy tính lớn nhưng ngày nay nó đã có thể chạy trên PC, Mobile,...
 
@@ -143,7 +147,7 @@ $$\color{red}\rightarrow\space Không\space hỗ\space trợ\space truy\space v�
 <Thiếu>
 
 **DDL - Data Definition Language Commands**
-<Thiếu>
+- Nhóm lệnh DDl
 
 **1. Trả lời truy vấn**
 <Thiếu>
@@ -152,3 +156,5 @@ $$\color{red}\rightarrow\space Không\space hỗ\space trợ\space truy\space v�
 <Thiếu>
 
 **Xu hướng thiết kế DB và DBMS**
+- Dạng bảng (Table format) - Có cấu trúc (Fixed Structure) - SQL.
+- Không có cấu trúc - NoSQL.
