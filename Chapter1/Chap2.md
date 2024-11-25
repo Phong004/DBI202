@@ -18,7 +18,7 @@
 **Đại số quan hệ**
 1. $$R\cup S = \{t|t\in R\lor t\in S\}$$
 2. $$R\cap S = \{t|t\in R\land t\in S\}$$
-3. $$R\\S = \{t|t\in R\land t\notin S\}$$
+3. $$R\setminus S = \{t|t\in R\land t\notin S\}$$
 4. $$R\times S$$
 5. $$R\div V$$
 6. Selection: xử lý có điều kiện. $$R1 = \sigma_{condition}(R2)$$
@@ -29,8 +29,12 @@
 
 ## Excercise
 
-a) $$\pi_{model,speed}(\sigma_{speed\ge 3.00}(PC))$$
+a) $$\pi_{model}(\sigma_{speed\ge 3.00}(PC))$$
 
-(*)b) $$\pi_{model,ram,hd,screen}(\sigma_{hd\ge 100}(Laptop))$$
+b) $$\pi_{maker}(\sigma_{type='laptop'\land hd\ge100}(Product\times Laptop))$$
 
-(*)c) $$\pi_{}$$
+c) $$\pi_{model,price}(\pi_{type}(\sigma_{maker='B'}(Product)))$$
+
+d) $$\pi_{model}(\sigma_{color='true'}(Printer)\cup \sigma_{type='laser'}(Printer))$$
+
+e) $$\pi_{maker}(\sigma_{type='laptop'}(Product)\setminus \sigma_{type='PC'}(Product))$$
