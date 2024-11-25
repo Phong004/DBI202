@@ -30,5 +30,7 @@
 ## Excercise
 
 a) $$\pi_{model,speed}(\sigma_{speed\ge 3.00}(PC))$$
+
 (*)b) $$\pi_{model,ram,hd,screen}(\sigma_{hd\ge 100}(Laptop))$$
+
 (*)c) $$\pi_{}$$
