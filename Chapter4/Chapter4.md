@@ -10,7 +10,7 @@
 6. Xác định mối quan hệ giữa các entities
 7. Sử dụng symbols để vẽ sơ đồ
 
-![](<Pictures_Source/Picture1.png>)
+![image](<Pictures_Source/Picture1.png>)
 
 **Mối quan hệ**
 - Derived Attributes: Thuộc tính không tồn tại trong db vật lý mà giá trị của nó được dẫn xuất từ các thuộc tính khác hiện hữu trong db
