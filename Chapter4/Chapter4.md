@@ -21,10 +21,10 @@
 
 ## Chuyển đổi từ ERD sang relation model
 1. Mỗi entity tương ứng với mỗi relation
-   - Những attributes của từng entity tương ứng các relation của từng relation đ
-   - Thuộc tính nào của attribute là khóa chính của entity, đó cũng là khóa chính của relation đó
-2. Tiến hành chuyển đổi dựa trên mối kêt hợp:
+   - Những attributes của từng entity tương ứng các relation của từng entity tương ứng các attributes của từng relation đó.
+   - Thuộc tính nào của là khóa chính của entity, đó cũng là khóa chính của relation đó
+2. Tiến hành chuyển đổi dựa trên giá trị của mỗi kêt hợp:
    - 1-M: lấy khóa chính của 1 thêm vào M
    - M-M: tạo ra 1 relation mới, tên của relation đó cũng là tên của relationship trong ERD. Khóa của relationship mới sẽ là khóa của 2 entity liên quan. Nếu relationship đó có attribute on relationship thì thêm relation mới luôn.
-    - 1-1: Lấy khóa của entity này đẩy vào entity kia. Tuy nhiên ưu tiên bên nào có đầy đủ thành phần tham gia. Nếu có attribute on relationship thì đẩy vào theo hướng đẩy của khóa luôn
+   - 1-1: Lấy khóa của entity này đẩy vào entity kia. Tuy nhiên ưu tiên bên nào có đầy đủ thành phần tham gia. Nếu có attribute on relationship thì đẩy vào theo hướng đẩy của khóa luôn
 3. Trường hợp đặc biệt là thực thể yếu: lấy khóa của strong entity đẩy vào weak entity. Nhưng lưu ý: khóa chính của strong entity sẽ là khóa chính của weak entity sau khi đẩy vào luôn.
